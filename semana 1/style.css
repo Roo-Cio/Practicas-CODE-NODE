@@ -1,0 +1,151 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    color: #2d3748;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ── Header ── */
+header {
+    background: #2b6cb0;
+    color: #fff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1.8rem;
+    letter-spacing: 0.5px;
+}
+
+header p {
+    margin-top: 0.4rem;
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+/* ── Main ── */
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2.5rem 1rem;
+}
+
+/* ── Card ── */
+.card {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 520px;
+}
+
+.card h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+    color: #2b6cb0;
+    border-bottom: 2px solid #ebf4ff;
+    padding-bottom: 0.75rem;
+}
+
+/* ── Formulario ── */
+.form-group {
+    margin-bottom: 1.25rem;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+    color: #4a5568;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.65rem 0.9rem;
+    border: 1.5px solid #cbd5e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    background: #f7fafc;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+    outline: none;
+    border-color: #2b6cb0;
+    box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.15);
+    background: #fff;
+}
+
+textarea {
+    resize: vertical;
+    min-height: 110px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 0.8rem;
+    background: #2b6cb0;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+    margin-top: 0.5rem;
+}
+
+button[type="submit"]:hover {
+    background: #2c5282;
+}
+
+button[type="submit"]:active {
+    transform: scale(0.98);
+}
+
+/* ── Alertas ── */
+.alert {
+    padding: 1rem 1.2rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.alert-success {
+    background: #c6f6d5;
+    border: 1px solid #68d391;
+    color: #276749;
+}
+
+.alert-error {
+    background: #fed7d7;
+    border: 1px solid #fc8181;
+    color: #9b2c2c;
+}
+
+/* ── Footer ── */
+footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.85rem;
+    color: #718096;
+}
