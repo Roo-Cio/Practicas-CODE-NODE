@@ -56,7 +56,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         type="text"
                         id="nombre"
                         name="nombre"
-                        placeholder="Ej. María García"
+                        placeholder="Ej. Rocio Gordo"
                         value="<?= htmlspecialchars($_POST['nombre'] ?? '') ?>"
                         required
                     >
@@ -68,7 +68,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                         type="email"
                         id="email"
                         name="email"
-                        placeholder="Ej. maria@ejemplo.com"
+                        placeholder="Ej. rocio@ejemplo.com"
                         value="<?= htmlspecialchars($_POST['email'] ?? '') ?>"
                         required
                     >
@@ -90,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </main>
 
     <footer>
-        <p>&copy; <?= date('Y') ?> CodeNode &mdash; Semana 1. Desarrollado con PHP.</p>
+        <p>&copy; <?= date('Y') ?> CodeNode &mdash; Semana 1.</p>
     </footer>
 
 </body>

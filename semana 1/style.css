@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #f0f4f8;
-    color: #2d3748;
+    background: #c7facf;
+    color: #03531b;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@ body {
 
 /* ── Header ── */
 header {
-    background: #2b6cb0;
+    background: #64b488;
     color: #fff;
     padding: 1.5rem 2rem;
     text-align: center;
@@ -37,7 +37,7 @@ main {
     flex: 1;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: flex-scenter;
     padding: 2.5rem 1rem;
 }
 
@@ -54,9 +54,10 @@ main {
 .card h2 {
     font-size: 1.3rem;
     margin-bottom: 1.5rem;
-    color: #2b6cb0;
-    border-bottom: 2px solid #ebf4ff;
+    color: #2bb03d;
+    border-bottom: 2px solid #c7facf;
     padding-bottom: 0.75rem;
+    text-align: center;
 }
 
 /* ── Formulario ── */
@@ -69,7 +70,7 @@ label {
     font-size: 0.9rem;
     font-weight: 600;
     margin-bottom: 0.4rem;
-    color: #4a5568;
+    color: #7c9765;
 }
 
 input[type="text"],
@@ -77,19 +78,19 @@ input[type="email"],
 textarea {
     width: 100%;
     padding: 0.65rem 0.9rem;
-    border: 1.5px solid #cbd5e0;
+    border: 1.5px solid #d5f8c7;
     border-radius: 8px;
     font-size: 1rem;
     font-family: inherit;
     transition: border-color 0.2s, box-shadow 0.2s;
-    background: #f7fafc;
+    background: #d3fcd5;
 }
 
 input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
     outline: none;
-    border-color: #2b6cb0;
+    border-color: #02441e;
     box-shadow: 0 0 0 3px rgba(43, 108, 176, 0.15);
     background: #fff;
 }
@@ -102,7 +103,7 @@ textarea {
 button[type="submit"] {
     width: 100%;
     padding: 0.8rem;
-    background: #2b6cb0;
+    background: #19d619;
     color: #fff;
     font-size: 1rem;
     font-weight: 600;
@@ -114,7 +115,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background: #2c5282;
+    background: #033b26;
 }
 
 button[type="submit"]:active {
@@ -142,10 +143,9 @@ button[type="submit"]:active {
     color: #9b2c2c;
 }
 
-/* ── Footer ── */
 footer {
     text-align: center;
     padding: 1rem;
     font-size: 0.85rem;
-    color: #718096;
+    color: #b5dfbf;
 }
