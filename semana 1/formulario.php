@@ -29,12 +29,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <header>
         <h1>CodeNode &mdash; Semana 1</h1>
-        <p>Proyecto: Formulario de Contacto con PHP</p>
+        <p>Proyecto: Formulario con PHP</p>
     </header>
 
     <main>
         <section class="card" aria-labelledby="form-title">
-            <h2 id="form-title">Formulario de Contacto</h2>
+            <h2 id="form-title">Formulario</h2>
 
             <?php if (!empty($mensaje)): ?>
                 <div class="alert alert-success" role="alert">
